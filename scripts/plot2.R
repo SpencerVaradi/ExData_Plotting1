@@ -8,5 +8,6 @@ utilData <- readRDS("data/utilData.rds")
 
 # Plot 2
 png(file = "graphs/plot2.png")
+par(bg='transparent')
 plot(utilData$DateTime,utilData$Global_active_power, type = "l", xlab = NA, ylab = "Global Active Power (kilowatts)")
 dev.off()

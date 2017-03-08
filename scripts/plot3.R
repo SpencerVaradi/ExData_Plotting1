@@ -8,7 +8,7 @@ utilData <- readRDS("data/utilData.rds")
 
 #Plot 3
 png(file = "graphs/plot3.png")
-
+par(bg='transparent')
 plot(utilData$DateTime,utilData$Sub_metering_1, type = "l", xlab = NA, ylab = "Energy sub metering")
 lines(utilData$DateTime,utilData$Sub_metering_2, type = "l", xlab = NA, col = "red")
 lines(utilData$DateTime,utilData$Sub_metering_3, type = "l", xlab = NA, col = "blue")

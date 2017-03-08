@@ -9,6 +9,7 @@ utilData <- readRDS("data/utilData.rds")
 # Plot 1
 # Histogram of Global_active_power
 png(file = "graphs/plot1.png")
+par(bg='transparent')
 hist(utilData$Global_active_power, xlab = "Global Active Power (kilowatts)", main = "Global Active Power", col = "red")
 dev.off()
 

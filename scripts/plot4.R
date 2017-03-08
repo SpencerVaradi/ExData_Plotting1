@@ -10,7 +10,7 @@ utilData <- readRDS("data/utilData.rds")
 # Plot 4
 png(file = "graphs/plot4.png")
 
-par(mfrow = c(2,2), mar = c(4.1,4,2,2.5))
+par(mfrow = c(2,2), mar = c(4.1,4,2,2.5), bg='transparent')
 with(utilData, {
   # upper left
   plot(utilData$DateTime,utilData$Global_active_power, type = "l", xlab = NA, ylab = "Global Active Power (kilowatts)")
