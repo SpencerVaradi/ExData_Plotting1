@@ -1,3 +1,12 @@
+## Overview for reviewer
+Hello! Thanks for looking over my homework. For reference:
+* All scripts are in the `scripts` directory
+* The `runAll.R` script will run all the plot files
+* Plotting files are otherwise in the `scripts` directory
+* Plots are saved to the `graphs` directory via `png()`
+* The original source data is missing because the file size exceeded max file upload size for Github. Instead, a `utilData.rds` file is kept in the `data` directory. This is subsetted and cleaned for exploration.
+* Please direct any questions to spencervaradi@gmail.com
+
 ## Introduction
 
 This assignment uses data from
